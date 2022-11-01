@@ -464,9 +464,11 @@ powershell的格式是.\a.exe也可以输入文件(.exe)名称如`a`之后按<TA
 
 #### 7.3 结合
 
-这里使用的是clang的编译器，gcc也可以，gcc的话兼容性更好一些编译之后体积更小
+这里使用的是gcc的编译器，clang也可以，看个人选择
 
-但是clang的提示会更好mac的话默认用的clang的
+clang的提示会更好mac的话默认用的clang的
+
+windows的话gcc的兼容性会更好
 
 但是要注意环境变量的顺序mingw的要在llvm-mingw的上面
 
