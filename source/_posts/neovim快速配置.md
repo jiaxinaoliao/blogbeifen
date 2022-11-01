@@ -86,7 +86,7 @@ win10和win11差不多都可以兼容
 
 首先下载仓库(https://github.com/shuangshuangbb/neovimBeginCpp/releases)打开网址
 
-打不开github的话可以考虑用fastgithub进行加速百度下载就行
+打不开github的话可以考虑用fastgithub进行加速之后，下载就行
 
 windows直接下载压缩包之后解压放在一边（方便的位置如桌面配置之后可以删除）
 
