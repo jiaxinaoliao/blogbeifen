@@ -886,7 +886,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script src="/js/jiazai.js"></script>
-    - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" date-mutex="false"> </div>
+    - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrctype="3" date-mutex="false"> </div>
       #  - <script async data-pjax src="/js/custom/nav.js"></script>
 
 
