@@ -24,7 +24,9 @@ clang（如果是c++就用clang++） + 文件名称 + -o（重命名） 名字
 
 和gcc，g++类似
 
-相对于gdb来说lldb是下一代跟好用
+相对于gdb来说lldb是下一代更好用
+
+提示会比gdb好很多
 
 lldb主要用于调试c，cpp和objective-c
 
@@ -44,11 +46,17 @@ windows中用的`llvm-mingw`在github中下载解压之后将bin目录添加到�
 
 编译用`clang++ test.cpp`编译程序
 
+如果是C语言就把clang++换成clang
+
+用gcc的也可以`g++ test.cpp`
+
 调试时需要使用-g参数`clang++ -g test.cpp`
 
-仓库中的快捷键<F5>一键编译相当于`clang++ test.cpp`
+gcc的也可以用lldb调试`g++ -g test.cpp`
 
-<F4>一键调试编译相当于`clang++ -g test.cpp`
+仓库中的快捷键<F5>一键编译相当于`g++ test.cpp`
+
+<F4>一键调试编译相当于`g++ -g test.cpp`
 
 也可以自行更改
 
