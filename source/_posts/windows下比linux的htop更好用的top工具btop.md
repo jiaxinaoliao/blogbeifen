@@ -1,8 +1,9 @@
 ---
 title: windows下比linux的htop更好用的top工具btop
-date: 2022-11-11 12:18:58
-tags: 终端插件分享
+tags: windows终端插件分享
 categories: 编程入门
+abbrlink: 34163
+date: 2022-11-11 12:18:58
 ---
 
 
