@@ -1,8 +1,9 @@
 ---
 title: windows下的包管理器scoop
-date: 2022-11-11 12:34:37
 tags: windows终端插件分享
 categories: 编程入门
+abbrlink: 20799
+date: 2022-11-11 12:34:37
 ---
 
 ### 1 Scoop包管理器
