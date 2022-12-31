@@ -339,6 +339,16 @@ scoop config aria2-enabled true
 
 
 
+mingw和llvm-mingw在配置里面都有也可以自行下载或者去
+
+https://github.com/jiaxinaoliao/llvm-mingw
+
+llvm-mingw这个仓库下载，要是放在一个仓库里的话下载太慢了
+
+所以给分开放了
+
+
+
 #### 7.2 lldb调试
 
 gcc的话用gdb调试体验不是很好所以这里用lldb进行调试

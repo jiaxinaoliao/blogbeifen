@@ -1,5 +1,5 @@
 ---
-title: windows下比linux的htop更好用的top工具btop
+title: windows下的top工具--btop
 tags: windows终端插件分享
 categories: 编程入门
 abbrlink: 34163
