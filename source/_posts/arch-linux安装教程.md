@@ -131,7 +131,7 @@ categories: arch linux
 
 # 第四部分 ventoy启动页面的美化（可选）
 
-{% asset_img image-20230111222216562.png %}
+{% asset_img \assets\image-20230111222216562.png %}
 
 可以看到ventoy的启动界面并不是很好看（这里可改可不改直接跳过去第五步也可以）
 

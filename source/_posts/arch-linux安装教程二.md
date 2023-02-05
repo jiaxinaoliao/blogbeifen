@@ -294,6 +294,10 @@ N卡的话安装这几个也不一定行，因为N卡的驱动在linux并不是�
 
 蓝牙后面会讲到
 
+之后重启一下就可以了这里要注意重启之后用普通的用户名和密码登录之后
+
+有一些命令是需要带sudo的
+
 
 
 ## 10. 添加aur
@@ -302,7 +306,7 @@ N卡的话安装这几个也不一定行，因为N卡的驱动在linux并不是�
 
 由于paru需要用git安装所以先下载git
 
-`pacman -S git`
+`sudo pacman -S git`
 
 `git clone https://aur.archlinux.org/paru.git`
 
@@ -310,7 +314,7 @@ N卡的话安装这几个也不一定行，因为N卡的驱动在linux并不是�
 
 这里需要用到makepkg我们先去配置一下
 
-`vim /etc/makepkg.conf`
+`sudo vim /etc/makepkg.conf`
 
 找到MAKEFLAGS=这一行改为`MAKEFLAGS="j$(nproc)"`
 
@@ -366,7 +370,7 @@ N卡的话安装这几个也不一定行，因为N卡的驱动在linux并不是�
 
 软件源里面包含了一下非官方但是常用的一些软件
 
-`vim /etc/pacman.conf`
+`sudo vim /etc/pacman.conf`
 
 往下找找到官方的几个源
 
@@ -383,9 +387,9 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$arch
 
 之后保存退出即可
 
-之后安装`pacman -S archlinuxcn-keyring`
+之后安装`sudo pacman -S archlinuxcn-keyring`
 
-`pacman -Syy`同步一下就可以看到清华的源了
+`sudo pacman -Syy`同步一下就可以看到清华的源了
 
 {% asset_img image-20230112130520494.png %}
 
