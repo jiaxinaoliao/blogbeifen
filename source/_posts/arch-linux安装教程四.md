@@ -18,25 +18,25 @@ categories: arch linux
 
 {% asset_img image-20230112143137423.png %}
 
-![image-20230112143137423](arch-linux安装教程三/image-20230112143137423.png)
+![image-20230112143137423](arch-linux安装教程四/image-20230112143137423.png)
 
 第一次打开会出现这个因为我们还没有启用fcitx5我们直接点击run fcitx5启动即可之后
 
 {% asset_img image-20230112143240343.png %}
 
-![image-20230112143240343](arch-linux安装教程三/image-20230112143240343.png)
+![image-20230112143240343](arch-linux安装教程四/image-20230112143240343.png)
 
 将这个选项去掉，这个是只显示英文的一些键盘，取消之后我们就可以看到中文的了
 
 {% asset_img image-20230112143349799.png %}
 
-![image-20230112143349799](arch-linux安装教程三/image-20230112143349799.png)
+![image-20230112143349799](arch-linux安装教程四/image-20230112143349799.png)
 
 我们要用到的就是Pinyin我们双击就可以了
 
 {% asset_img image-20230112143418277.png %}
 
-![image-20230112143418277](arch-linux安装教程三/image-20230112143418277.png)
+![image-20230112143418277](arch-linux安装教程四/image-20230112143418277.png)
 
 这个时候就可以看到左边已经被添加进来了
 
@@ -68,23 +68,23 @@ GLFW_IM_MODULE=ibus
 
 {% asset_img image-20230112144037291.png %}
 
-![image-20230112144037291](arch-linux安装教程三/image-20230112144037291.png)
+![image-20230112144037291](arch-linux安装教程四/image-20230112144037291.png)
 
 选择addons 
 
 {% asset_img image-20230112144104942.png %}
 
-![image-20230112144104942](arch-linux安装教程三/image-20230112144104942.png)
+![image-20230112144104942](arch-linux安装教程四/image-20230112144104942.png)
 
 {% asset_img image-20230112144113872.png %}
 
-![image-20230112144113872](arch-linux安装教程三/image-20230112144113872.png)
+![image-20230112144113872](arch-linux安装教程四/image-20230112144113872.png)
 
 第一行最右边点开可以在这个里面可以设置字体的大小我们可以调大一些
 
 {% asset_img image-20230112144227077.png %}
 
-![image-20230112144227077](arch-linux安装教程三/image-20230112144227077.png)
+![image-20230112144227077](arch-linux安装教程四/image-20230112144227077.png)
 
 我们可以看到最后面的主题里面有我们刚刚安装的一些主题选一个自己喜欢的就行之后点击ok即可
 
@@ -94,11 +94,11 @@ GLFW_IM_MODULE=ibus
 
 {% asset_img image-20230112144413247.png %}
 
-![image-20230112144413247](arch-linux安装教程三/image-20230112144413247.png)
+![image-20230112144413247](arch-linux安装教程四/image-20230112144413247.png)
 
 {% asset_img image-20230112144430181.png %}
 
-![image-20230112144430181](arch-linux安装教程三/image-20230112144430181.png)
+![image-20230112144430181](arch-linux安装教程四/image-20230112144430181.png)
 
 打开之后我们可以看见enable cloud  pinyin启用云拼音
 
@@ -106,13 +106,13 @@ GLFW_IM_MODULE=ibus
 
 {% asset_img image-20230112144524976.png %}
 
-![image-20230112144524976](arch-linux安装教程三/image-20230112144524976.png)
+![image-20230112144524976](arch-linux安装教程四/image-20230112144524976.png)
 
 点击cloud pinyin这一行
 
 {% asset_img image-20230112144608690.png %}
 
-![image-20230112144608690](arch-linux安装教程三/image-20230112144608690.png)
+![image-20230112144608690](arch-linux安装教程四/image-20230112144608690.png)
 
 我们将其改为baidu之后OK即可云拼音就设置成功了
 
