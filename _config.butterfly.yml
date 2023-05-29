@@ -125,7 +125,126 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - /photo/background/*
+    - /photo/background/82da98d8d2cb4c57863d46ba43aca34e.png
+    - /photo/background/5805540bf8358639cfbbf42e92abab4914df2411.jpg
+    - /photo/background/1661256734073_7DB0_.jpg
+    - /photo/background/1661257025114_Ue9PX.jpg
+    - /photo/background/about1.jpg
+    - /photo/background/about2.png
+    - /photo/background/anime-anime-girls-ai-art-Genshin-Impact-mushroom-Nahida-Genshin-Impact-2198387-wallhere.com.jpg
+    - /photo/background/Artic Sunset.png
+    - /photo/background/e83085bdecbaba1cc4f33235876d3146_r.jpg
+    - /photo/background/Fantasy World.png
+    - /photo/background/gkihqEjXxJ5UZ1C.jpg
+    - /photo/background/jiyuanmwi.png
+    - /photo/background/Kitchen Open Late.png
+    - /photo/background/logo.gif
+    - /photo/background/LUNA.png
+    - /photo/background/myFerrari - Ferrari F8 Spider - aLaDy9F.pdf - Adobe Acrobat Pro DC (64-bit).jpg
+    - /photo/background/Pirates.png
+    - /photo/background/QQ截图20221113115756.png
+    - /photo/background/QQ截图20221113115959.png
+    - /photo/background/rgb spiderman.png
+    - /photo/background/Samurai Doge.png
+    - /photo/background/t01d1508a8790f4b084.jpg
+    - /photo/background/t01f0e4e561e02181c6.jpg
+    - /photo/background/the dock.png
+    - /photo/background/TranscodedWallpaper.jpg
+    - /photo/background/v2-5eb7afdcb8ae283ad04daf7599b36f10_r.jpg
+    - /photo/background/v2-48ed7b4c8351484da2354b90d1d2ed0f_r.jpg
+    - /photo/background/v2-94aa6878ab8371112aacc76d22f03965_r.jpg
+    - /photo/background/v2-9991b9ce42342dbb4bf45651cc617b51_r.jpg
+    - /photo/background/v2-821475e09c24e2d556e7c61eeb1044cc_r.jpg
+    - /photo/background/v2-b75a5f9331f62c47b08df8515493d2a9_r.jpg
+    - /photo/background/v2-c4c5aa88e11344e79ddfd000c913ecab_r.jpg
+    - /photo/background/wallhaven.jpg
+    - /photo/background/wallhaven-0qzml5.jpg
+    - /photo/background/wallhaven-0w2z36.png
+    - /photo/background/wallhaven-1pqe79.png
+    - /photo/background/wallhaven-1px1g9.jpg
+    - /photo/background/wallhaven-2kgqmm.jpg
+    - /photo/background/wallhaven-2y9y8m.png
+    - /photo/background/wallhaven-3l3rwd.png
+    - /photo/background/wallhaven-3l5lzd.png
+    - /photo/background/wallhaven-3l36lv.jpg
+    - /photo/background/wallhaven-4xy5go.jpg
+    - /photo/background/wallhaven-4yyv8k.jpg
+    - /photo/background/wallhaven-5wpp98.png
+    - /photo/background/wallhaven-6dmm8x.jpg
+    - /photo/background/wallhaven-8oj2mj.jpg
+    - /photo/background/wallhaven-8ojq6j.png
+    - /photo/background/wallhaven-9d8opd.jpg
+    - /photo/background/wallhaven-9mjoy1.png
+    - /photo/background/wallhaven-43l6rd.jpg
+    - /photo/background/wallhaven-57o9j5.png
+    - /photo/background/wallhaven-85epw1.jpg
+    - /photo/background/wallhaven-85glj2.jpg
+    - /photo/background/wallhaven-282rwm.jpg
+    - /photo/background/wallhaven-95582k.jpg
+    - /photo/background/wallhaven-573227.jpg
+    - /photo/background/wallhaven-d6e6pj.png
+    - /photo/background/wallhaven-d6e8y3.jpg
+    - /photo/background/wallhaven-d6kdxo.jpg
+    - /photo/background/wallhaven-d63dwj.png
+    - /photo/background/wallhaven-d63voj.jpg
+    - /photo/background/wallhaven-dpd9gg.jpg
+    - /photo/background/wallhaven-ex8mkw.jpg
+    - /photo/background/wallhaven-g716ol.jpg
+    - /photo/background/wallhaven-gp5kg7.png
+    - /photo/background/wallhaven-gp9pj7.jpg
+    - /photo/background/wallhaven-j3m8y5.png
+    - /photo/background/wallhaven-jxw6zm.jpg
+    - /photo/background/wallhaven-jxwlpw.png
+    - /photo/background/wallhaven-jxwwgp.jpg
+    - /photo/background/wallhaven-kx8q9m.png
+    - /photo/background/wallhaven-kxk1z6.png
+    - /photo/background/wallhaven-kxzk6m.png
+    - /photo/background/wallhaven-l8km3y.png
+    - /photo/background/wallhaven-m993gy.png
+    - /photo/background/wallhaven-n6evgw.png
+    - /photo/background/wallhaven-nrp2km.jpg
+    - /photo/background/wallhaven-p9l5zm.png
+    - /photo/background/wallhaven-p9lmy9.png
+    - /photo/background/wallhaven-p9wk69.png
+    - /photo/background/wallhaven-pkmdgj.jpg
+    - /photo/background/wallhaven-q2o275.jpg
+    - /photo/background/wallhaven-v9e7gp.jpg
+    - /photo/background/wallhaven-vqypl5.jpg
+    - /photo/background/wallhaven-vqyq98.png
+    - /photo/background/wallhaven-we1r7p.png
+    - /photo/background/wallhaven-we6qk6.jpg
+    - /photo/background/wallhaven-wel5j6.jpg
+    - /photo/background/wallhaven-weleq7.png
+    - /photo/background/wallhaven-wqve97.png
+    - /photo/background/wallhaven-wqxpj7.png
+    - /photo/background/wallhaven-wqxpyq.jpg
+    - /photo/background/wallhaven-x6em53.png
+    - /photo/background/wallhaven-x6zzql.jpg
+    - /photo/background/wallhaven-x86j5l.jpg
+    - /photo/background/wallhaven-x89xgd.jpg
+    - /photo/background/wallhaven-ymeled.png
+    - /photo/background/wallhaven-yx5jkk.jpg
+    - /photo/background/wallhaven-yx5k8l.jpg
+    - /photo/background/wallhaven-yx5vg7.png
+    - /photo/background/wallhaven-yx52xd.jpg
+    - /photo/background/wallhaven-yxgqol.jpg
+    - /photo/background/wallhaven-z892ly.jpg
+    - /photo/background/wallhaven-zygeko.jpg
+    - /photo/background/wallhaven-zyxvqy.jpg
+    - /photo/background/wenzhang9.png
+    - /photo/background/wenzhang12.png
+    - /photo/background/wyy1.png
+    - /photo/background/wyy2.png
+    - /photo/background/wyy3.png
+    - /photo/background/wyy4.png
+    - /photo/background/wyy5.png
+    - /photo/background/wyy6.png
+    - /photo/background/wyy7.png
+    - /photo/background/wyy8.png
+    - /photo/background/wyy9.png
+    - /photo/background/wyy10.png
+    - /photo/background/甘城.png
+    - /photo/background/魔女.png
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
