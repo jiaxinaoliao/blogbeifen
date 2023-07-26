@@ -256,6 +256,8 @@ categories: arch linux
 
 现在大部分的linux系统还是使用是ext4的格式
 
+xfs格式可能后面会有问题
+
 格式好之后会有Done完成
 
 然后用`lsblk -f`可以查看格式
@@ -307,6 +309,8 @@ categories: arch linux
 如果是amd的cpu就用amd-ucode替换intel-ucode
 
 回车（enter）安装即可
+
+之后用`grub-install /dev/sda`这里换成自己的分区不用加具体的分区数
 
 安装好后修改一下启动参数
 
