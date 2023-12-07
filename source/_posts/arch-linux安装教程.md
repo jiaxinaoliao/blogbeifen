@@ -354,7 +354,8 @@ xfs格式可能后面会有问题
 
 打开里面的ventoy文件夹如果跟着我做了第三部分的美化的话会有这个文件夹的如果没有就直接创建一个ventoy的文件夹在里面创建一个（ventoy_grub.cfg）文件右键编辑用记事本打开里面输入
 
-```menuentry "Arch Linux" --class=custom {
+```
+menuentry "Arch Linux" --class=custom {
     set root=($vtoydev,gpt3)
     linux /boot/vmlinuz-linux-zen root=UUID=facxxxx（这里的uuid换成自己的）
     initrd /boot/initramfs-linux-zen.img

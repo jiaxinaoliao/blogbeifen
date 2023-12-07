@@ -2,7 +2,7 @@
 title: neovim快速配置教程
 tags: neovim
 abbrlink: 10ae7419
-date: 2022-10-21 21:36:12
+date: 2023-12-7 11:36:12
 categories: 编程入门
 ---
 
@@ -10,7 +10,7 @@ categories: 编程入门
 
 由于github的问题可能图片加载不是很好可以直接下方连接下载最新版解压即可
 
-https://github.com/jiaxinaoliao/neovimBeginCpp/releases
+https://github.com/jiaxinaoliao/neovimBeginCpp
 
 解压之后的REDME.md文件（推荐用typora打开或者notepads（alt+p开启markdown预览）也可以）即可查看
 
@@ -18,11 +18,9 @@ https://github.com/jiaxinaoliao/neovimBeginCpp/releases
 
 下载之后进行简单的安装即可使用
 
-纯windows环境**不需要虚拟机**纯windows环境下
+在纯windows环境**不需要虚拟机**  纯windows环境下使用
 
-linux--wsl（ubuntu22.04LTS）（配置文件在.config）也可以，小改动即可
-
-本文用的在压缩包的nvim文件夹没有用wsl
+linux/wsl下也可以使用，linux/wsl的配置文件在文件夹的linuxConfig中
 
 macos应该也能兼容（没有试过）
 
@@ -30,41 +28,39 @@ macos应该也能兼容（没有试过）
 
 ## 1. 简介
 
-win10或者win11都可以主要用于c\c++的学习使用（学习编程或者小项目）
-
-**主要用于windows下的 学习编程  学习编程  学习编程 c\c++ c\c++ c\c++**
-
-python应该也可以（没有试过）
+系统环境win10或者win11都可以，主要用于c\c++（python，lua，rust等也可以）的学习使用（学习编程或者小项目）
 
 可以实现IDE的基本功能（编译、运行、调试、跳转、报错、提示等等）
 
 
 
-**系统：**利用的win11的环境**windows11专业版21H2版本**
+**系统：**利用的win11的环境**windows11专业版22H2版本**
 
-（22.10.3更新到22H2版本）
+（家庭学生版或者其他版本也可以）
 
 **终端：**最新版的**Windows Terminal**＋**powershell**
 
 * 注意 ：Microsoft powershell和powershell不一样
 
-PowerShell 7.2 是下一个长期服务 (LTS) 版本，基于 .NET 6.0 构建。
+PowerShell 7.x 是下一个长期服务 (LTS) 版本，基于 .NET 6.0 构建。
 
-在windows和macos和linux都可以支持
+可以跨平台windows和macos和linux都支持（具体说明可以去微软官网https://learn.microsoft.com/zh-cn/shows/it-ops-talk/how-to-install-powershell-7）
 
-**美化：** **oh-my-push**
+**美化：** **oh-my-push**（类似于oh-my-zsh的一个东西，不过会影响启动速度）
 
-编译用的clangd调试用的lldb
+编译用的mingw的gcc，调试用的vscode的插件cpptools
 
-windows下lldb用的是MinGW64的llvm-mingw
+如果想用clangd的话，windows下用的是MinGW64的llvm-mingw
 
-
-
-利用的工具是scoop类比于ubuntu下的apt，apt-get，arch的pacman
+下载地址https://github.com/mstorsjo/llvm-mingw/releases
 
 
 
-**具体机型配置无所谓，不需要太好的性能八代i3的cpu也能带的动，占用资源超级小**
+利用的包管理器是scoop类比于ubuntu下的apt，apt-get，arch的pacman
+
+
+
+**具体机型配置无所谓，不需要太好的性能八代i3的cpu也能带的动，占用资源少**
 
 
 
@@ -72,7 +68,7 @@ windows下lldb用的是MinGW64的llvm-mingw
 
 
 
-主要用于C/C++其他语言也可以，前端、python、java等也可以，需要小改动
+主要用于C/C++其他语言也可以，前端、python、java等都可以，需要小改动
 
 
 
@@ -84,19 +80,13 @@ win10和win11差不多都可以兼容
 
 ### 2.1 下载配置文件
 
-首先下载仓库(https://github.com/shuangshuangbb/neovimBeginCpp/releases)打开网址
+首先下载仓库(https://github.com/jiaxinaoliao/neovimBeginCpp)打开网址
 
 打不开github的话可以考虑用fastgithub进行加速之后，下载就行
 
 windows直接下载压缩包之后解压放在一边（方便的位置如桌面配置之后可以删除）
 
-下载最新版的zip
 
-{% asset_img nvim-peizhi-1.png %}
-
-
-
-在主页也可以下载
 
 {% asset_img nvim-peizhi-2.png %}
 
@@ -110,13 +100,15 @@ windows直接下载压缩包之后解压放在一边（方便的位置如桌面�
 
 22.10.3换字体了Code New Roman Bold Nerd Font Complete Windows Compatible.otf也在文件夹里面打开安装就行
 
+我这里我的是CodeNewRomanNerdFontMono-Regular.otf
+
 之后打开windows terminal以下简称wt
 
 打开wt的设置，在设置中打开配置JSON文件如图
 
 {% asset_img nvim-peizhi-3.png %}
 
-打开配置文件夹打开wt+pwsh配置文件的文件夹里面有一个**windowsterminal 配置.txt**文件将其中的内容复制**替换**原本的JSON配置文件
+打开配置文件夹打开**wt+pwsh配置文件**的文件夹里面有一个**windowsterminal 配置.txt**文件将其中的内容复制**替换**原本的JSON配置文件
 
 之后保存关闭即可，再次打开wt如果改变说明设置成功，标签栏默认隐藏（alt+z可以打开打开标签栏）如果不习惯也可以在设置->启动->启动模式中的启动模式改为别的即可
 
@@ -191,7 +183,7 @@ scoop + 命令 + 软件名称
 
 #### 2.3.2 安装之后
 
-安装之后用`scoop update`进行更新
+安装之后用`scoop update *`进行更新
 
 之后用`scoop bucket add 仓库名 `添加仓库
 
@@ -223,7 +215,7 @@ scoop bucket add java
 
 main是默认的extras里面有大量的常用的软件java的就是提供java的一些工具
 
-添加仓库之后用`scoop update`更新
+添加仓库之后用`scoop update *` 更新
 
 之后开始安装软件
 
@@ -323,29 +315,17 @@ scoop config aria2-enabled true
 
    `sudo pip3 install --upgrade pynvim`
 
+
+
 ### 7. llvm-mingw下载
 
 #### 7.1 mingw64编译
 
-   可以到官网直接下载
+我这里用的gcc直接用scoop安装mingw就可以了
 
-   [Downloads - MinGW-w64](https://www.mingw-w64.org/downloads/)
+`scoop install mingw`
 
-也可以不用下载
-
-这个配置文件夹里面也有直接复制出来之后添加环境变量即可
-
-怎么添加环境变量后文有说，可以先复制出来一会一起添加，添加完要重启才能生效
-
-
-
-mingw和llvm-mingw在配置里面都有也可以自行下载或者去
-
-https://github.com/jiaxinaoliao/llvm-mingw
-
-llvm-mingw这个仓库下载，要是放在一个仓库里的话下载太慢了
-
-所以给分开放了
+如果想用llvm的话可以下载https://github.com/mstorsjo/llvm-mingw/releases之后添加环境变量即可
 
 
 
@@ -355,7 +335,7 @@ gcc的话用gdb调试体验不是很好所以这里用lldb进行调试
 
 
 
-配置文件夹内有一份llvm-mingw快速使用.md有一些基本的lldb的使用方法可以参考一下，也可以直接去官网查看文档
+配置文件夹内有一份**llvm-mingw快速使用.md**有一些基本的lldb的使用方法可以参考一下，也可以直接去官网查看文档
 
 
 
@@ -463,6 +443,10 @@ llvm-mingw默认用的gnu的库，utf-8在vim和终端中都是英文不会乱�
 
 
 
+------------------------------------
+
+**调试部分已经更改**
+
 <F5>一键编译之后用快捷键tt（中）或tb（右）或tc（下）打开一个终端窗口（位置不同）
 
 用编译好的.exe的名称回车即可运行
@@ -477,6 +461,18 @@ powershell的格式是.\a.exe也可以输入文件(.exe)名称如`a`之后按<TA
 
 
 
+更改部分可以看https://www.bilibili.com/video/BV1qN4y1m7EH/
+
+<F5>运行 <F4>编译 
+
+ctrl+<F4>调试编译
+
+ctrl+<F5>开始调试
+
+-----------------------------
+
+
+
 #### 7.3 结合
 
 这里使用的是gcc的编译器，clang也可以，看个人选择
@@ -487,13 +483,17 @@ windows的话gcc的兼容性会更好
 
 但是要注意环境变量的顺序mingw的要在llvm-mingw的上面
 
-
-
 到这里基本所有需要的程序就都已经安装完毕了
 
 
 
+
+
 #### 7.4 UTF-8（windows改为utf-8）
+
+这里有两种方法
+
+**方法一**（不推荐）
 
 在设置中找到区域设置
 
@@ -511,7 +511,13 @@ windows的话gcc的兼容性会更好
 
 选用utf-8之后确定即可，需要重启电脑
 
+方法一相当于都改成了utf8编码，对于一些国产软件会有问题
 
+
+
+**方法二**
+
+去修改pwsh的配置文件，文件夹中有一份带注释的一份不带注释的可以查看，下文中有提到
 
 
 
@@ -543,23 +549,33 @@ windows的兼容性不是很好只是用来浏览用的
 
 先要安装neovim用`scoop install neovim`就可以
 
-将配置文件夹中的nvim文件夹复制粘贴到C盘C:\用户\用户名称\AppData\Local
+将配置文件夹中的nvim文件夹复制粘贴到C盘 `C:\用户\用户名称\AppData\Local`
 
-整个文件夹复制进来（linux下的可以用.config文件夹）放在Local/下面
+或者是自定义的指定位置
+
+整个文件夹复制进来（linux下的可以用linuxConfig文件夹）放在Local/下面
 
 之后在wt中打开neovim用nvim回车即可
 
-第一次打开会自动安装packer插件管理器不用管等待安装完成即可
+第一次打开会自动安装lazy插件管理器不用管等待安装完成即可
 
 如果没有成功查看一下网络打开fastgithub
 
-安装完成之后在neovim里面用:PackerSync命令进行安装插件
+安装完成之后在neovim里面用:Lazy命令进行安装插件
+
+进入Lazy之后按`shift+s`就可以更新全部插件了
 
 安装插件也许要可以连接上github用fastgithub或者代理也可以
 
 全都安装不上就是网络问题
 
-如果有一两个安装不上重新运行:PackerSync即可
+
+
+将配置文件复制完成之后需要完成三步
+
+1. 打开nvim输入命令`:Lazy `之后按`shift+s`更新插件
+2. 打开nvim输入命令`:Mason`之后等待检测更新按`shift+u`更新lsp，可以直接选择需要的lsp进行安装`i安装`
+3. 打开nvim输入命令`:TSUpdate all`
 
 
 
@@ -577,9 +593,11 @@ windows的兼容性不是很好只是用来浏览用的
 
 
 
-上述没有用到oh-my-push如果需要的话可以去微软商店下载安装
+上述没有提到到oh-my-push如果需要的话可以去微软商店下载安装
 
-或者百度查找微软商店安装的话需要多安装几次确保安装没有问题
+如果微软商店安装不了的话可以用scoop安装
+
+
 
 之后在powershell中用notepad 打开配置文件
 
@@ -635,15 +653,13 @@ windows的兼容性不是很好只是用来浏览用的
 
 可以实现代码补全，跳转，提示以及编译
 
-调试的话用的vimspector但是没有配置完全
+调试部分用的是vscode的cpptools的插件快捷键在文件夹中
 
-这里直接用的lldb去进行调试也是不错的后续有机会会更新
+
 
 
 
 由于水平有限只能手动安装程序，有实力的选手可以自己写一个安装脚本一键安装
-
-
 
 
 
@@ -656,8 +672,6 @@ windows的兼容性不是很好只是用来浏览用的
 [精通 VIM ，此文就够了 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/68111471)
 
 可以看看快速了解一下vim以及tmux
-
-
 
 
 
@@ -678,8 +692,6 @@ windows的兼容性不是很好只是用来浏览用的
 tokyonight（星星也很高）和catppuccin/nvim效果差不多可以去看官方文档
 
 {% asset_img nvim-peizhi-22.png %}
-
-
 
 
 
@@ -743,18 +755,15 @@ vscode-cpptools的下载在这
 
 [Releases · microsoft/vscode-cpptools (github.com)](https://github.com/microsoft/vscode-cpptools/releases)
 
-下载vscode-cpptools之后
-
 {% asset_img nvim-peizhi-8-1.png %}
 
 
 
-将command改为自己刚刚下载的路径即可
+或者用nvim的Mason插件安装也可以
 
-```cpp
-,dt 打断点
-,dd 开始调试
-,de 停止调试
-```
 
-windows下默认用的gdb不是很好用（没有配置好）还不如直接用上面的lldb
+
+
+
+
+
