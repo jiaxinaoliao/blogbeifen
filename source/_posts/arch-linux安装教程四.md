@@ -169,3 +169,7 @@ exec dwm
 `sudo systemctl enable udisks2`
 
 重启即可
+
+注意：这里可以顺便吧ntfs也安装一下，因为win的系统格式是ntfs的，为了方便后面读取数据可以安装一下
+
+`sudo pacman -S ntfs-3g`

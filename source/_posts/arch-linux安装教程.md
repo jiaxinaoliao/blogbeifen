@@ -262,6 +262,10 @@ xfs格式可能后面会有问题
 
 然后用`lsblk -f`可以查看格式
 
+注意：这里用arch的live格式化之后可能有问题，可以进入windows里面用[DiskGenius](https://www.diskgenius.cn/download.php)进行格式化分区，格式化成ext4，然后把里面的文件删干净（之后重新进入livecd里面联网继续）
+
+
+
 ## 6. 挂载分区
 将分区挂载`mount /dev/sda3 /mnt`即可
 
@@ -317,6 +321,8 @@ xfs格式可能后面会有问题
 `vim /etc/default/grub`
 
 {% asset_img image-20230112000109131.png %}
+
+（这里报错没关系后面会用ventoy去手动写uuid）
 
 之后用`grub-mkconfig -o /boot/grub/grub.cfg`写入配置
 

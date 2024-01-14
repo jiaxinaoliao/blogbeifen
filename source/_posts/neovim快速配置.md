@@ -455,19 +455,19 @@ powershell的格式是.\a.exe也可以输入文件(.exe)名称如`a`之后按<TA
 
 或者用-o改名如`g++ hello.cpp -o test.exe`即可编译生成hello.exe文件
 
-之后`hello`按<TAB>自动补全`.\hello.exe`回车运行输出结果
+之后`hello`按/<TAB/>自动补全`.\hello.exe`回车运行输出结果
 
-默认<F5><F4>的名称为a.exe
+默认/<F5/>/<F4/>的名称为a.exe
 
 
 
-更改部分可以看https://www.bilibili.com/video/BV1qN4y1m7EH/
+**更改部分可以看**https://www.bilibili.com/video/BV1qN4y1m7EH/
 
-<F5>运行 <F4>编译 
+/<F5/>运行 /<F4/>编译 
 
-ctrl+<F4>调试编译
+ctrl+/<F4/>调试编译
 
-ctrl+<F5>开始调试
+ctrl+/<F5/>开始调试
 
 -----------------------------
 

@@ -80,6 +80,10 @@ date: 2023-01-12 11:02:42
 
 
 
+注意：这里也可以nmtui打开界面之后直接用第二个选项activate on connection进行选择wifi连接
+
+
+
 ## 3. 重命名主机名称
 
 输入命令`vim /etc/hostname`
@@ -130,6 +134,12 @@ date: 2023-01-12 11:02:42
 
 确定时间正确即可
 
+注意：双系统的话时间会错乱，改win或者linux都可以
+
+这里后面在linux改一下就行执行一下
+
+```timedatectl set-local-rtc 1 --adjust-system-clock```
+
 
 
 ## 5. 添加普通用户
@@ -144,7 +154,7 @@ root的用户的权限太大了所以要添加一个普通的用户并且生成�
 
 添加好后还需要将用户添加到组里面才可以用sudo命令提权
 
-`usermod -aG wheel,users,storage,power,lp,adm,opticla 用户名`
+`usermod -aG wheel,users,storage,power,lp,adm,optical 用户名`
 
 添加好后可以用`ip 用户名`查看一下
 
@@ -268,7 +278,7 @@ root的用户的权限太大了所以要添加一个普通的用户并且生成�
 
 1. intel
 
-   `pacman -S Vulkan-intel mesa`
+   `pacman -S vulkan-intel mesa`
 
    这里不建议安装xf86-video-intel这个官网有说明为什么
 
@@ -303,6 +313,8 @@ N卡的话安装这几个也不一定行，因为N卡的驱动在linux并不是�
 ## 10. 添加aur
 
 这里常用的是yay但是paru更新一些所以这里咱们用最新的paru
+
+下载的时候需要注意网络的问题，网络不好的话是下载不了的
 
 由于paru需要用git安装所以先下载git
 
