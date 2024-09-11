@@ -1,8 +1,9 @@
 ---
 title: kali-linux安装到U盘中
-date: 2024-09-11 17:23:29
 tags: kali linux安装教程
 categories: kali
+abbrlink: 32894
+date: 2024-09-11 17:23:29
 ---
 
 # kali-linux安装到U盘中
@@ -25,7 +26,11 @@ categories: kali
 
 ## 2、安装ventoy
 
-首先去ventoy的官网https://www.ventoy.net/cn/download.html下载一个ventoy然后插入u盘运行
+首先去ventoy的官网https://www.ventoy.net/cn/download.html
+
+下载一个ventoy然后插入u盘运行
+
+{% asset_img image-20240911173129437.png %}
 
 ![image-20240911173129437](kali-linux安装到U盘中/image-20240911173129437.png)
 
@@ -35,7 +40,11 @@ categories: kali
 
 **运行之前务必确保U盘中没有重要资料**
 
+{% asset_img image-20240911173240678.png %}
+
 ![image-20240911173240678](kali-linux安装到U盘中/image-20240911173240678.png)
+
+{% asset_img image-20240911173306117.png %}
 
 ![image-20240911173306117](kali-linux安装到U盘中/image-20240911173306117.png)
 
@@ -51,7 +60,11 @@ categories: kali
 
 我们可以直接去kali的官网下载https://www.kali.org/get-kali/#kali-platforms
 
+{% asset_img image-20240911173632342.png %}
+
 ![image-20240911173632342](kali-linux安装到U盘中/image-20240911173632342.png)
+
+{% asset_img image-20240911173655151.png %}
 
 ![image-20240911173655151](kali-linux安装到U盘中/image-20240911173655151.png)
 
@@ -60,6 +73,8 @@ categories: kali
 但是kali官网下载十分的慢，有两种解决方法第一种可以利用工具下载，或者我们直接去清华的开源软件镜像站下载
 
 https://mirrors.tuna.tsinghua.edu.cn/
+
+{% asset_img image-20240911173849590.png %}
 
 ![image-20240911173849590](kali-linux安装到U盘中/image-20240911173849590.png)
 
@@ -97,11 +112,19 @@ https://mirrors.tuna.tsinghua.edu.cn/
 
 第一种方式比较简单就是直接把efi文件放到ventoyU盘的iso文件夹中，在windows中利用（DiskGenius工具)将正常应该是第三个分区中的efi文件复制到桌面然后改个名字再放入U盘的iso文件夹中
 
+{% asset_img image-20240911181047570.png %}
+
 ![image-20240911181047570](kali-linux安装到U盘中/image-20240911181047570.png)
+
+{% asset_img image-20240911181203327.png %}
 
 ![image-20240911181203327](kali-linux安装到U盘中/image-20240911181203327.png)
 
+
+
 之后通过U盘启动的方式直接选择这个文件即可
+
+{% asset_img f180e5f3824e6b480c9482369b74f016_compress.jpg %}
 
 ![img](kali-linux安装到U盘中/f180e5f3824e6b480c9482369b74f016_compress.jpg)
 
@@ -110,6 +133,8 @@ https://mirrors.tuna.tsinghua.edu.cn/
 ### 第二种
 
 第二种方法的话什么都不用改，每次从U盘启动的时候按F2手动去找这个efi文件也是可以的
+
+{% asset_img cd9c83812037593030b2d8c35e718cda_compress.jpg %}
 
 ![img](kali-linux安装到U盘中/cd9c83812037593030b2d8c35e718cda_compress.jpg)
 
@@ -125,9 +150,13 @@ https://mirrors.tuna.tsinghua.edu.cn/
 
 需要我们在U盘中创建一个ventoy的文件夹
 
+{% asset_img image-20240911181731822.png %}
+
 ![image-20240911181731822](kali-linux安装到U盘中/image-20240911181731822.png)
 
 里面创建一个ventoy_grub.cfg的配置文件
+
+{% asset_img image-20240911181749823.png %}
 
 ![image-20240911181749823](kali-linux安装到U盘中/image-20240911181749823.png)
 
@@ -135,9 +164,13 @@ https://mirrors.tuna.tsinghua.edu.cn/
 
 然后再kali系统里面看一下/boot/里面这两个文件的具体名称换一下自己对应的名称即可
 
+{% asset_img image-20240911182000483.png %}
+
 ![image-20240911182000483](kali-linux安装到U盘中/image-20240911182000483.png)
 
 之后通过U盘启动然后按F6即可进入自定义菜单
+
+{% asset_img d5a5649612af450bee67676c828bdd47_compress.jpg %}
 
 ![img](kali-linux安装到U盘中/d5a5649612af450bee67676c828bdd47_compress.jpg)
 
