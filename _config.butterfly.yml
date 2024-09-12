@@ -334,7 +334,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: Valine
+  use: Gitalk
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -364,8 +364,8 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: 468ba2eabfd7584ee6a2
-  client_secret: 819f22548a6f982fe7c2f80a5ceb64dd0cdae8b6
+  client_id: Ov23liagQUFvLxGCoLwT
+  client_secret: 4ef2304f954bedc8d78005d748fec96de786208f
   repo: blogtalk
   owner: jiaxinaoliao
   admin: jiaxinaoliao
