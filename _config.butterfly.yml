@@ -89,13 +89,13 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: transparent
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: /photo/top.png
 
 # The banner image of archive page
-archive_img:
+archive_img: /photo/top.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -588,10 +588,10 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(/photo/background/wallhaven-8oj2mj.jpg)
+background: photo/background/1.jpg
 
 # Footer Background
-footer_bg: true
+footer_bg: transparent
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -942,12 +942,15 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/css/jiazai.css">
+     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    # - <link rel="stylesheet" href="/css/jiazai.css">
+    # - <link rel="stylesheet" href="/css/transpancy.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <script src="/js/jiazai.js"></script>
-    - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrctype="3" date-mutex="false"> </div>
-      #  - <script async data-pjax src="/js/custom/nav.js"></script>
+     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    # - <script src="/js/jiazai.js"></script>
+    # - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrctype="3" date-mutex="false"> </div>
+    #  - <script async data-pjax src="/js/custom/nav.js"></script>
 
 
 

@@ -216,10 +216,10 @@ categories: arch linux
    在vim中输入`/`就是查找然后输入China找到中国的镜像源将中国的镜像源移动到最前面，也可以把其他国家的删除，按jk上下移动hl左右移动两下d就是删除一行可以用v进入选择模式jkhl移动将China的这一部分选中之后用y复制然后按gg移动到开头用p将China的粘贴上去之后:（冒号）wq回车（enter）就是保存退出
 
    + 或者都删了这里用几个常用的
-     + `Sever = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch`
-     + `Sever = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch`
-     + `Sever = https://mirrors.aliyun.com/archlinux/$repo/os/$arch`
-     + `Sever = https://mirrors.163.com/archlinux/$repo/os/$arch`
+     + `Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch`
+     + `Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch`
+     + `Server = https://mirrors.aliyun.com/archlinux/$repo/os/$arch`
+     + `Server = https://mirrors.163.com/archlinux/$repo/os/$arch`
 
 添加好之后执行`pacman -Syy`进行同步，配置好镜像之后的速度应该很快
 
