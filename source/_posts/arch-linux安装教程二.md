@@ -260,7 +260,7 @@ root的用户的权限太大了所以要添加一个普通的用户并且生成�
 
 之后打开渲染据说能媲美苹果的字体
 
-`vim /etc/porfile.d/freetype2.sh`
+`vim /etc/profile.d/freetype2.sh`
 
 打开后将最后一行去注释即可
 
@@ -393,18 +393,34 @@ N卡的话安装这几个也不一定行，因为N卡的驱动在linux并不是�
 在下面加上清华的源
 
 ```源
-[archlinux]
-Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$arch
+[archlinuxcn]
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
 
 之后保存退出即可
 
-之后安装`sudo pacman -S archlinuxcn-keyring`
+之后安装`sudo pacman -Sy archlinuxcn-keyring`
 
-`sudo pacman -Syy`同步一下就可以看到清华的源了
+`sudo pacman -Syyu`同步一下就可以看到清华的源了
 
 {% asset_img image-20230112130520494.png %}
 
 ![image-20230112130520494](arch-linux安装教程二/image-20230112130520494.png)
 
 之后重启即可
+
+### 新系统中安装 archlinuxcn-keyring 包前的额外步骤
+
+2023 年 12 月后，在新系统下安装 `archlinuxcn-keyring` 时可能会出现错误：
+
+```
+error: archlinuxcn-keyring: Signature from "Jiachen YANG (Arch Linux Packager Signing Key) " is marginal trust
+```
+
+需要在本地信任 farseerfc 的 GPG key：
+
+
+
+```
+pacman-key --lsign-key "farseerfc@archlinux.org"
+```

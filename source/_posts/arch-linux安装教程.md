@@ -331,7 +331,7 @@ xfs格式可能后面会有问题
 安装好用`systemctl enable NetworkManager`(这里都可以用tab补全)启动网络服务下一次就可以自动联网了
 
 ## 12. 添加密码
-用`password`给新系统的默认的root用户创建一个密码
+用`passwd`给新系统的默认的root用户创建一个密码
 
 这里注意输入的密码是不会显示出来的需要输入两遍
 
