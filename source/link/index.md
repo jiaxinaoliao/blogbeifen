@@ -51,5 +51,9 @@ type: "link"
       link: https://oi-wiki.org/ 
       avatar: /photo/oiwiki.png
       descr: OiWiki
+    - name: 人教版数学课本
+      link: https://jc.pep.com.cn/
+      avatar: /photo/oiwiki.png
+      descr: jc
 
 {% endflink %}

@@ -12,7 +12,7 @@ date: 2023-01-12 13:17:11
 
 由于是安装到U盘里面的所以我们不用桌面环境用更为简洁高效的dwm
 
-窗口管理器，这个是由[suckless](https://suckless.org/)这个组织开发维护的，源代码是C语言写的中共才不到两千行
+窗口管理器，这个是由[suckless](https://suckless.org/)这个组织开发维护的，源代码是C语言写的总共才不到两千行
 
 首先我们创建一个文件夹夹专门放dwm（窗口管理器）以及st（终端）dmenu（启动）
 
@@ -28,7 +28,7 @@ git clone https://git.suckless.org/dmenu
 git clone https://git.suckless.org/slstatus
 ```
 
-说是三件套多安装了一个slstatus有了后面配置状态栏的
+说是三件套 但是这里多安装了一个slstatus有了后面配置状态栏的
 
 ```suckless
 cd dwm

@@ -1,8 +1,9 @@
 ---
 title: arch linux安装（到U盘中）教程（五 科学上网v2rayA）
-date: 2024-01-14 20:20:56
-tags:arch linux安装教程
+tags: arch linux安装教程
 categories: arch linux
+abbrlink: 40602
+date: 2024-01-14 20:20:56
 ---
 
 # 1、科学上网

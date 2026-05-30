@@ -166,7 +166,7 @@ root的用户的权限太大了所以要添加一个普通的用户并且生成�
 
 `export EDITOR=vim`
 
-之后用`viduso`
+之后用`visudo`
 
 {% asset_img image-20230112121030340.png %}
 

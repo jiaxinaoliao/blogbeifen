@@ -1,8 +1,9 @@
 ---
 title: arch-linux安装教程六（zsh的安装与美化）
-date: 2024-01-14 20:36:59
-tags:arch linux安装教程
+tags: arch linux安装教程
 categories: arch linux
+abbrlink: 3794
+date: 2024-01-14 20:36:59
 ---
 
 # 一、安装zsh以及oh-my-zsh
