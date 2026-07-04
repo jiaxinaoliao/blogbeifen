@@ -2519,7 +2519,6 @@ bool is_prime(int x)
 大除小，取两数中较小的 与 余数， 再除直到余数为0，此时除数为答案
 
 ```c++
-#include <algorithm>
 #include <iostream>
 using namespace std;
 
@@ -2552,7 +2551,6 @@ int main()
 大减小，减数和差（提取出来），大减小，直到0为止，此时减数就是答案
 
 ```c++
-#include <algorithm>
 #include <iostream>
 using namespace std;
 
