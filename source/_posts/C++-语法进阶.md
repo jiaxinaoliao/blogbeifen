@@ -466,16 +466,18 @@ getline(cin, s);
 
 ### 3.3 常用操作
 
-| 操作                     | 示例                                         |
-| :----------------------- | :------------------------------------------- |
-| 长度                     | `int len = s.length();` 或 `s.size()`        |
-| 拼接                     | `s = s + "abc";` 或 `s += "abc";`            |
-| 比较（字典序）           | `if (s1 == s2)`，支持 `> < >= <= !=`         |
-| 访问单个字符（类似数组） | `char ch = s[0];` `s[0] = 'A';`              |
-| 获取 C 风格字符串        | `const char* p = s.c_str();`                 |
-| 查找子串                 | `int pos = s.find("abc");` 返回下标          |
-| 截取子串                 | `string sub = s.substr(pos, len);`           |
-| 插入/删除                | `s.insert(pos, "abc");` `s.erase(pos, len);` |
+| 操作                     | 示例                                           |
+| :----------------------- | :--------------------------------------------- |
+| 长度                     | `int len = s.length();` 或 `s.size()`          |
+| 拼接                     | `s = s + "abc";` 或 `s += "abc";`              |
+| 比较（字典序）           | `if (s1 == s2)`，支持 `> < >= <= !=`           |
+| 访问单个字符（类似数组） | `char ch = s[0];` `s[0] = 'A';`                |
+| 获取 C 风格字符串        | `const char* p = s.c_str();`                   |
+| 查找子串                 | `int pos = s.find("abc");` 返回下标 否则返回-1 |
+| 截取子串                 | `string sub = s.substr(pos, len);`             |
+| 插入/删除                | `s.insert(pos, "abc");` `s.erase(pos, len);`   |
+
+find 没有找到 特殊标记 string::npos   可以使用 -1 代替
 
 **示例**：
 
