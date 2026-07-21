@@ -471,6 +471,7 @@ string s;
 - 遍历：`for (char c : s)`
 - 子串：`s.substr(pos, len)`
 - 查找：`s.find(t)` 返回位置，未找到返回 `string::npos`
+- 插入删除：插入`s.insert(pos, "abc")`  删除`s.erase(pos, len)`
 - 转换大小写：
 
 ```cpp
