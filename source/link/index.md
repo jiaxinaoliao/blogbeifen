@@ -47,6 +47,10 @@ type: "link"
       link: https://twitter.com/
       avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
       descr: 社交分享平台
+
+- class_name: OI相关
+  class_desc: OI基础
+  link_list:
     - name: OiWiki
       link: https://oi-wiki.org/ 
       avatar: /photo/oiwiki.png
