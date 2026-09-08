@@ -1,6 +1,6 @@
 ---
 title: C++算法入门
-tags: OI教程
+tags: OI相关
 categories: C++ OI 教程
 abbrlink: 49328
 date: 2026-05-16 13:05:07

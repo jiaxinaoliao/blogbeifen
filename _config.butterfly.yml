@@ -4,15 +4,15 @@
 
 menu:
   首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  时间轴: /archives/ || fas fa-archive
+  程序员: /box/ || fas fa-book
+  友链: /link/ || fas fa-link
   娱乐||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
-  程序员: /box/ || fas fa-book
-  友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
@@ -742,7 +742,9 @@ aside:
     content: |
       有问题加群
       恐龙小窝
-      QQ：xxxxxx
+      QQ：391145100
+      联系邮箱：
+      klbbz@qq.com
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -945,11 +947,13 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/jiazai.css">
     - <link rel="stylesheet" href="/css/title.css">
+    # - <link rel="stylesheet" href="/css/category-collapse.css">
     # - <link rel="stylesheet" href="/css/transpancy.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <script src="/js/jiazai.js"></script>
+    # - <script src="/js/category-collapse.js"></script>
     # - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrctype="3" date-mutex="false"> </div>
     #  - <script async data-pjax src="/js/custom/nav.js"></script>
       

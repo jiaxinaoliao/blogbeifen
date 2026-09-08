@@ -5,19 +5,24 @@ type: "link"
 ---
 
 {% flink %}
-- class_name: 微信网页版
-  class_desc: archlinux用
+- class_name: OI相关
+  class_desc: OI基础
   link_list:
-    - name: Wechat
-      link: https://wx.qq.com/
-      avatar: /photo/weixintubiao.jpg
-      descr: 社交平台
-    - name: Github
-      link: https://github.com/jiaxinaoliao
-      avatar: /photo/github.jpg
-      descr: 个人github
+    - name: 打字练习
+      link: https://dazidazi.com/
+      avatar: /photo/dazidazi.png
+      descr: dazidazi
+    - name: OiWiki
+      link: https://oi-wiki.org/ 
+      avatar: /photo/oiwiki.png
+      descr: OiWiki
+    - name: 人教版数学课本
+      link: https://jc.pep.com.cn/
+      avatar: /photo/oiwiki.png
+      descr: 教材
 
 - class_name: 友情链接
+  class_desc: 博客教程
   link_list:
     - name: butterfly美化教程
       link: https://butterfly.zhheo.com/
@@ -48,16 +53,16 @@ type: "link"
       avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
       descr: 社交分享平台
 
-- class_name: OI相关
-  class_desc: OI基础
+- class_name: 微信网页版
+  class_desc: archlinux用
   link_list:
-    - name: OiWiki
-      link: https://oi-wiki.org/ 
-      avatar: /photo/oiwiki.png
-      descr: OiWiki
-    - name: 人教版数学课本
-      link: https://jc.pep.com.cn/
-      avatar: /photo/oiwiki.png
-      descr: jc
+    - name: Wechat
+      link: https://wx.qq.com/
+      avatar: /photo/weixintubiao.jpg
+      descr: 社交平台
+    - name: Github
+      link: https://github.com/jiaxinaoliao
+      avatar: /photo/github.jpg
+      descr: 个人github
 
 {% endflink %}
